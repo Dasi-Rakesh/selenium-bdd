@@ -1,0 +1,46 @@
+# Ignore target build directory
+target/
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Maven and dependency files
+*.jar
+*.war
+*.ear
+*.class
+*.log
+
+# Ignore test reports
+test-output/
+surefire-reports/
+test-reports/
+cucumber-reports/
+
+# Ignore Selenium WebDriver binaries
+chromedriver.exe
+chromedriver
+geckodriver
+*.exe
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Ignore configuration files
+config.properties
+
+# Ignore environment variables and sensitive files
+.env
+.metadata
